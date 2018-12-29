@@ -18,7 +18,7 @@ def oxford_comma(array)
     
     
     array[array.size-2] << "and"
-   return 
+   return array
     
   end
 end

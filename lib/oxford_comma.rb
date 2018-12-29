@@ -16,10 +16,9 @@ def oxford_comma(array)
   end
   
   if array.size > 3
-    array.pop
-    
-    array = array.join(", ")
-    binding.pry
+    last_object = array.pop
+    string = array.join(", ")
+    string << "and"
     
     array[array.size-2] << "and"
    return array

@@ -8,7 +8,7 @@ def oxford_comma(array)
   end
   
   if array.size == 3
-    return 
+    
 
 
 

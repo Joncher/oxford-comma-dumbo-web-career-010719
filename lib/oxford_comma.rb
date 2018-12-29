@@ -18,6 +18,6 @@ def oxford_comma(array)
     array[n] << ", "
     
     array[array.size-2] << " and "
-    return array.join(",")
+    return array.join(", ")
   end
 end

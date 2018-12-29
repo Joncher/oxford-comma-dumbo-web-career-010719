@@ -17,7 +17,7 @@ def oxford_comma(array)
     n = 0..array.size-2
     array[n] << ", "
     
-    array[array.size -1] << ", and "
+    array[array.size-1] << ", and "
     return array.join
   end
 end

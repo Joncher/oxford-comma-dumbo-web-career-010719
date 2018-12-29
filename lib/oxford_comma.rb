@@ -20,10 +20,8 @@ def oxford_comma(array)
     last_object = array.pop
     string = array.join(", ")
     string << "and"
-    
-    binding.pry
-    array[array.size-2] << "and"
-   return array
+    string << "#{last_object}"
+   return string
     
   end
 end

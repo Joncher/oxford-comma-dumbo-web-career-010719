@@ -19,7 +19,7 @@ def oxford_comma(array)
     string = ""
     last_object = array.pop
     string = array.join(", ")
-    string << "and"
+    string << " and "
     string << "#{last_object}"
    return string
     

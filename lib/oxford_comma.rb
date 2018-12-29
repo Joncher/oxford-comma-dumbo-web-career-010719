@@ -14,11 +14,11 @@ def oxford_comma(array)
   end
   
   if array.size > 3
-    
+    array = array.join(", ")
     
     
     array[array.size-2] << "and"
-   return array.join(", ")
+   return 
     
   end
 end

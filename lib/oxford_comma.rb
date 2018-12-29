@@ -16,7 +16,7 @@ def oxford_comma(array)
   end
   
   if array.size > 3
-    
+    array.pop
     
     array = array.join(", ")
     binding.pry

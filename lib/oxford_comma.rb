@@ -14,10 +14,10 @@ def oxford_comma(array)
   end
   
   if array.size > 3
-    n = 0..array.size
-    array[0] << ", "
-    array[1] << ", "
-    array[2] << ", and "
+    n = 0..array.size-2
+    array[n] << ", "
+    
+    array[array.size -1] << ", and "
     return array.join
   end
 end

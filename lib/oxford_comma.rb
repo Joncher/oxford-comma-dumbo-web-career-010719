@@ -17,7 +17,7 @@ def oxford_comma(array)
     
     array2 = []
     array2 = array.join(", ")
-    array2[array2.size-1] << " and "
+    array2[array.size-1] << " and "
     return array2
   end
 end

@@ -14,6 +14,7 @@ def oxford_comma(array)
   end
   
   if array.size > 3
+    n = 
     array[0] << ", "
     array[1] << ", "
     array[2] << ", and "
